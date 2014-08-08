@@ -1,0 +1,6 @@
+{
+	"require": {
+		"colibri/framework": "dev-master@dev"
+	},
+	"minimum-stability": "dev"
+}

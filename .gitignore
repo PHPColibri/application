@@ -1,0 +1,7 @@
+.idea
+.nbproject
+
+
+/vendor
+/application/configs/local
+/application/logs/
