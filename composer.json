@@ -1,4 +1,13 @@
 {
+	"name": "colibri/application",
+	"description": "Colibri Application Skeleton",
+	"type": "project",
+	"license": "MIT",
+	"authors": [{
+		"name": "Alexander Chibrikin",
+		"email": "alek13.me@gmail.com"
+	}],
+	
 	"require": {
 		"colibri/framework": "dev-master@dev"
 	},
