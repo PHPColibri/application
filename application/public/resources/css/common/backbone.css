@@ -1,0 +1,21 @@
+/* 
+    Document   : backbone
+    Created on : Mar 18, 2012, 1:19:04 AM
+    Author     : alek13
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url("common.css"); /* остатки временно в _common.css */
+@import url("backbone.mainmenu.css");
+
+.canvas
+{
+	padding: 0 64px;
+	margin-top: 28px;
+}
+.canvas > h1
+{
+	padding-left: 24px; 
+}
+

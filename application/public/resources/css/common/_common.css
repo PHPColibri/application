@@ -1,0 +1,137 @@
+/* 
+    Document   : common
+    Created on : Mar 18, 2012, 1:23:05 AM
+    Author     : alek13
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body, table, input
+{
+	font-family: verdana,tahoma,arial;
+	font-size: 14px;
+}
+
+a
+{
+	color: #268;
+}
+
+h1		{	color: #444;	}
+h1 b	{	color: #aaa; font-size: smaller;	}
+h6		{	color: #666; font-size: 12px;}
+
+input, textarea, select
+{
+	border: solid 1px lightgray;
+	border-radius: 3px;
+	/*-moz-border-radius: 2px;*/
+}
+label
+{
+	color: gray;
+	font-size: 13px;
+	margin-bottom: 2px;
+	display: block;
+}
+input:hover, textarea:hover, select:hover {	border-color: darkgray; }
+input:focus, textarea:focus, select:focus {	border-color: #5ac;     }
+option:hover{background-color: #000;}
+button
+{
+	padding: 3px 12px 6px;
+	border: none;
+	background: #fa0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fa0), to(#b70));
+	background: -webkit-linear-gradient(top, #fa0, #b70);
+	background: -moz-linear-gradient(top, #fa0, #b70);
+	background: -ms-linear-gradient(top, #fa0, #b70);
+	background: -o-linear-gradient(top, #fa0, #b70);
+	/*background: -moz-linear-gradient(top, #fa4, #f60);*/
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 4px;
+	
+	color: white;
+	font-size: 12px;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	vertical-align: top;
+}
+input[type="submit"]
+{
+	padding: 3px 12px 6px;
+	border: none;
+	background: #aaa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#888));
+	background: -webkit-linear-gradient(top, #aaa, #888);
+	background: -moz-linear-gradient(top, #aaa, #888);
+	background: -ms-linear-gradient(top, #aaa, #888);
+	background: -o-linear-gradient(top, #aaa, #888);
+	/*background: -moz-linear-gradient(top, #fa4, #f60);*/
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 4px;
+	
+	color: white;
+	font-size: 12px;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	vertical-align: top;
+}
+p
+{
+	margin: 0 0 8px;
+}
+blockquote
+{
+	border-left: solid 3px #268;
+	/*margin: 0;*/
+	padding: 2px 12px;
+}
+
+
+.error
+{
+	background-color: #fee;
+	color: darkred;
+	border: solid 1px #fbb;
+	padding: 6px 8px;
+	margin: 4px;
+	display: inline-block;
+}
+
+form > table > tr td
+{
+	padding: 4px 2px;
+}
+form > table > tr:hover
+{
+	background-color: #f0fdff;
+}
+
+.litle
+{
+	font-size	: 11px;
+}
+.litle, small
+{
+	color		: #999;
+}
+
+
+.error-page {}
+.error-page h2,.error-page h3,.error-page h4 { color: #888; }
+.error-page h2 var,.error-page h3 var,.error-page h4 var { color: #acd; font-style: normal }
+.error-page section {  }
+.error-page section .message {  }
+.error-page section .actions { padding: 10px 5px }
+.error-page section .actions { padding: 10px 5px }
+
+.clear { clear:both; }

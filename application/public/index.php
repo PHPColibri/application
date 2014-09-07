@@ -1,9 +1,8 @@
 <?php
 
-require '../../vendor/autoload.php';
+require_once('../configs/pathes.php');
+require(VENDOR.'autoload.php');
 
-use Colibri\Config\Config;
 
-$appCfg = Config::get('app');
+include(COLIBRI.'Application/launcher.php');
 
-var_dump($appCfg);
