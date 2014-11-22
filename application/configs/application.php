@@ -2,7 +2,7 @@
 
 return array(
 	
-	'debug' => false,
+	'debug' => true,
 	
 	'domain' => 'colibri.dev',
 	

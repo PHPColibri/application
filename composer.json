@@ -11,5 +11,8 @@
 	"require": {
 		"colibri/framework": "dev-master@dev"
 	},
+	"autoload": {
+		"classmap": ["application/classes/"]
+	},
 	"minimum-stability": "dev"
 }
