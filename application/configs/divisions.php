@@ -1,5 +1,6 @@
 <?php
 
 return array(
-	// 'admin',
+	'' => 'primary',
+	// 'admin' => 'admin',
 );
