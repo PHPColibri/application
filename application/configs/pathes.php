@@ -61,6 +61,7 @@
 
 
 	// =========  Client side  =========
+	define('VND'            ,'/vnd/');
 	define('RES'			,'/resources/');
 	define('RES_JS'			,  RES      .'js/');
 	define('RES_CSS'		,  RES      .'css/');

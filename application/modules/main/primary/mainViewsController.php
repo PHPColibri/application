@@ -5,7 +5,7 @@ use Colibri\Controller\ViewsController;
 /**
  *
  */
-class CMainViews extends ViewsController
+class MainViewsController extends ViewsController
 {
 	public		function	defaultView()
 	{
