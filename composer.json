@@ -9,7 +9,7 @@
 	}],
 	
 	"require": {
-		"colibri/framework": "dev-master@dev"
+		"colibri/framework": "dev-master"
 	},
 	"autoload": {
 		"classmap": ["application/classes/"]
