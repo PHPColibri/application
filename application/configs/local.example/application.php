@@ -1,10 +1,10 @@
 <?php
 
 
-return array(
-	
-	'debug' => true,
-	
-	'domain' => 'colibri.dev',
-	
-);
+return [
+
+    'debug' => true,
+
+    'domain' => 'colibri.dev',
+
+];

@@ -10,11 +10,14 @@
     }
   ],
   "require": {
-    "colibri/framework": "^1.0"
+    "colibri/framework": "dev-master@dev"
   },
   "autoload": {
     "classmap": [
       "application/classes/"
     ]
+  },
+  "require-dev": {
+    "filp/whoops": "^2.1"
   }
 }

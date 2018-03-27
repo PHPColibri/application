@@ -12,6 +12,4 @@ return array(
 			'replacement'	=> 'articles/show/nissan_$1_$2'
 		)*/
 	),
-	
-	// не используется: 'routes' => array(...),
 );

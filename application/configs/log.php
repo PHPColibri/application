@@ -1,6 +1,6 @@
 <?php
 
 return [
-	'folder' => ROOT . '/application/logs',
-	'prefix' => 'colibri',
+    'folder' => ROOT . '/application/logs',
+    'prefix' => 'colibri',
 ];
