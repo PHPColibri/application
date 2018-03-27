@@ -17,7 +17,7 @@ return [
 	// Module
 	'module' => array(
 		'default'						 => 'main',
-		'defaultViewsControllerAction'	 => 'defaultView',
+		'defaultViewsControllerAction'	 => 'index',
 		'defaultMethodsControllerAction' => 'defaultResponse',
 	),
 

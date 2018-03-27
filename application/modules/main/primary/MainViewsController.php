@@ -7,9 +7,9 @@ use Colibri\Controller\ViewsController;
  */
 class MainViewsController extends ViewsController
 {
-	public		function	defaultView()
+	public		function	index()
 	{
 	}
-	
+
 }
 
