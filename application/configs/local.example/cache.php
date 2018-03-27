@@ -1,7 +1,7 @@
 <?php
 
-return array(
-	'memcache' => array(
-		'defaultExpiration' => 1 * 60,
-	),
-);
+return [
+    'memcache' => [
+        'defaultExpiration' => 1 * 60,
+    ],
+];
