@@ -1,4 +1,4 @@
-function	backbone_mgr()
+function	layout_mgr()
 {
 	var self=this;
 
