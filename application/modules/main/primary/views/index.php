@@ -1,4 +1,6 @@
+<?php
+/** @var string $greeting */
+?>
 
-
-<h1>Colibri установлен</h1>
-
+<h1><?= $greeting ?></h1>
+<p class="lead">Colibri успешно установлен</p>

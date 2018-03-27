@@ -1,4 +1,5 @@
 <?php
+
 use Colibri\Controller\ViewsController;
 
 
@@ -7,9 +8,10 @@ use Colibri\Controller\ViewsController;
  */
 class MainViewsController extends ViewsController
 {
-	public		function	index()
-	{
-	}
-
+    public function index()
+    {
+        $this->view([
+            'greeting' => 'Поздравляем!'
+        ]);
+    }
 }
-
