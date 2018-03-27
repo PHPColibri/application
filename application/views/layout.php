@@ -28,25 +28,25 @@
 
 
 <body>
-	
-	<? include('backbone/mainmenu.php'); ?>
+
+	<? include('layout/mainmenu.php'); ?>
 
     <div class="canvas">
 
 		<h1>Colibri Application</h1>
-		
+
 		<ul class="divisionmenu nav nav-pills">
 			<li><a href="/"        ><i class="icon icon-home"></i> Home</a></li>
 			<li><a href="/somepage">Some page</a></li>
 		</ul>
-		
+
 		<div class="row-fluid">
 			<div class="span8">
 				{content}
 			</div>
 			<div class="span4 hidden-phone">
 				<div class="well">
-					
+
 				</div>
 			</div>
 		</div>
