@@ -8,6 +8,7 @@ return [
 
 	'encoding'	 => 'utf-8',
 	'timezone'	 => 'Europe/Moscow',
+    'locale'     => 'ru_RU.utf8',
 	'umask'      => 0002,
 
 	// @todo: refactoring this option & it`s use
