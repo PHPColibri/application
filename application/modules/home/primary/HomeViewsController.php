@@ -6,7 +6,7 @@ use Colibri\Controller\ViewsController;
 /**
  *
  */
-class MainViewsController extends ViewsController
+class HomeViewsController extends ViewsController
 {
     public function index()
     {
