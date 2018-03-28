@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="shortcut icon" type="image/png" href="/favicon.png">
 
-{title}
-{keywords}
-{description}
-<!-- ----- CSS ----- -->
-<link   type="text/css" rel="stylesheet" href="<?=RES_CSS?>bootstrap<?=DEBUG?'':'.min'?>.css"/>
-<link   type="text/css" rel="stylesheet" href="<?=RES_CSS?>bootstrap-responsive<?=DEBUG?'':'.min'?>.css"/>
-{css}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- ----- JavaScript ----- -->
-<!--[if lt IE 9]>
-  <script src="../assets/js/html5shiv.js"></script>
-<![endif]-->
-<script type="text/javascript" src="<?=RES_JS?>jquery-1.10.0<?=DEBUG?'':'.min'?>.js"></script>
-<script type="text/javascript" src="<?=RES_JS?>bootstrap<?=DEBUG?'':'.min'?>.js"></script>
-<script type="text/javascript" src="<?=RES_JS?>rexml.js"></script>
-<script type="text/javascript" src="<?=RES_JS?>xmlrpc.js"></script>
-<script type="text/javascript" src="<?=RES_JS?>xmlrpc_adapter.js"></script>
-<script type="text/javascript" src="<?=RES_JS?>API.js"></script>
-{javascript}
+    {title}
+    {keywords}
+    {description}
+
+    <!-- ----- CSS ----- -->
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    {css}
+
+    <!-- ----- JavaScript ----- -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
 
 <body>
 
-	<? include('layout/mainmenu.php'); ?>
+	<?php include('layout/mainmenu.php'); ?>
 
-    <div class="canvas">
+    <div class="container">
 
-		<h1>Colibri Application</h1>
+        {content}
 
-		<ul class="divisionmenu nav nav-pills">
-			<li><a href="/"        ><i class="icon icon-home"></i> Home</a></li>
-			<li><a href="/somepage">Some page</a></li>
-		</ul>
+    </div>
 
-		<div class="row-fluid">
-			<div class="span8">
-				{content}
-			</div>
-			<div class="span4 hidden-phone">
-				<div class="well">
-
-				</div>
-			</div>
-		</div>
-
-    </div> <!-- /container -->
+    <!-- ----- JavaScript ----- -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    {javascript}
 </body>
 </html>
