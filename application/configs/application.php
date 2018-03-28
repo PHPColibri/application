@@ -16,9 +16,16 @@ return [
 
     // Module
     'module'   => [
-        'default'                        => 'main',
+
+        // Default module to call.
+        //   if in requested url there is no module name,
+        //   this module will be loaded.
+        'default'                        => 'home',
+
+        // Default action to call (for Views controller).
+        //   if in requested url there is no action name,
+        //   then for Views controller this action will be called
         'defaultViewsControllerAction'   => 'index',
-        'defaultMethodsControllerAction' => 'defaultResponse',
     ],
 
     'response' => [
