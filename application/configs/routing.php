@@ -3,13 +3,13 @@
 return [
     'rewrite' => [
         // for example:
-        /*array(
-            'pattern'		=> '/\/nissan\/+(.*)\/(.*)/',
-            'replacement'	=> 'articles/show/nissan_$1_$2'
-        )/*,
-        array(
-            'pattern'		=> '/\/nissan\/+(.*)\/(.*)/',
-            'replacement'	=> 'articles/show/nissan_$1_$2'
-        )*/
+//        [
+//            'pattern'     => '~/users/(\d+)$~',
+//            'replacement' => 'users/show/$1',
+//        ],
+//        [
+//            'pattern'     => '~/users/(\d+)/(posts|comments)$~',
+//            'replacement' => 'users/$2/$1',
+//        ],
     ],
 ];
