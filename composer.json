@@ -13,9 +13,7 @@
     "colibri/framework": "dev-master@dev"
   },
   "autoload": {
-    "classmap": [
-      "application/classes/"
-    ]
+    "psr-4": {"Application\\": "application/"}
   },
   "require-dev": {
     "filp/whoops": "^2.1"
