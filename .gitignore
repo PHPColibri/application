@@ -1,7 +1,7 @@
-.idea
-.nbproject
+.idea/
+.nbproject/
 
 
-/vendor
-/application/configs/local
+/vendor/
+/application/configs/local/
 /application/logs/
