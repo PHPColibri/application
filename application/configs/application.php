@@ -1,5 +1,7 @@
 <?php
 
+use Application\Foundation\API;
+
 return [
 
     'debug' => true,
@@ -20,12 +22,12 @@ return [
         // Default module to call.
         //   if in requested url there is no module name,
         //   this module will be loaded.
-        'default'                        => 'home',
+        'default'                      => 'home',
 
         // Default action to call (for Views controller).
         //   if in requested url there is no action name,
         //   then for Views controller this action will be called
-        'defaultViewsControllerAction'   => 'index',
+        'defaultViewsControllerAction' => 'index',
     ],
 
     'response' => [
@@ -39,4 +41,6 @@ return [
     'view' => [
         'title' => 'Colibri :: ',
     ],
+
+    'API' => API::class,
 ];
