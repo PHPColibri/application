@@ -9,6 +9,7 @@
       "email": "alek13.me@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "colibri/framework": "dev-master"
   },
