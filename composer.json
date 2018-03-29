@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "colibri/framework": "dev-master@dev"
+    "colibri/framework": "dev-master"
   },
   "autoload": {
     "psr-4": {"Application\\": "application/"}
