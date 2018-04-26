@@ -2,7 +2,7 @@
 namespace Application\Foundation;
 
 use Application\Model\User;
-use Colibri\Application\API as ColibriAppAPI;
+use Colibri\Application\Application\API as ColibriAppAPI;
 use Colibri\Session\Session;
 
 
