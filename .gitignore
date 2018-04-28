@@ -5,3 +5,4 @@
 /vendor/
 /application/configs/local/
 /application/logs/
+!/application/logs/.gitkeep
