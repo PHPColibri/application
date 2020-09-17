@@ -2,8 +2,6 @@
   deny from all
 </Files>
 
-php_flag safe_mode off
-
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-f
